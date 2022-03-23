@@ -38,13 +38,6 @@ class AdminCallbacks extends BaseController
         return require_once("$this->plugin_path/templates/BuildersGuide.php");
     }
 
-//    public function buildersHubGroup($input){
-//        return $input;
-//    }
-//
-//    public function buildersHubAdminSection(){
-//        echo 'Welcome';
-//    }
 
     public function buildersHubTextExample(){
         $value = esc_attr(get_option('text_example'));
