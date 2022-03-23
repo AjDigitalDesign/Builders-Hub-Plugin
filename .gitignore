@@ -1,7 +1,7 @@
 # Ignore node dependency directories.
 composer.phar
 **/node_modules/
-**/vendor/
+
 
 # Ignore log files and databases.
 *.log
