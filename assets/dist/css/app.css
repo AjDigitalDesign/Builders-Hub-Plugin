@@ -1,0 +1,265 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.builder_hub_wrapper {
+  position: relative;
+}
+.builder_hub_wrapper .nav-tabs {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid transparent;
+}
+.builder_hub_wrapper .nav-tabs li {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -1px;
+}
+.builder_hub_wrapper .nav-tabs li a {
+  margin-right: 2px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  outline: none;
+  text-decoration: none;
+}
+.builder_hub_wrapper .nav-tabs li a:hover {
+  border-color: #eee #eee #ddd;
+}
+.builder_hub_wrapper .nav-tabs li.active a {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border-bottom-color: transparent;
+  border-radius: 0;
+  outline: none;
+}
+.builder_hub_wrapper .nav-tabs li.active a:hover {
+  color: #555;
+  cursor: default;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  outline: none;
+}
+.builder_hub_wrapper .nav-tabs li.active a:focus {
+  color: #555;
+  cursor: default;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  outline: none;
+}
+.builder_hub_wrapper .tab-content {
+  position: relative;
+  overflow: hidden;
+  margin-right: 14px;
+}
+.builder_hub_wrapper .tab-content .tab-pane {
+  width: 100%;
+  display: none;
+}
+.builder_hub_wrapper .tab-content .active {
+  display: block;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.15);
+}
+.builder_hub_wrapper .builders_hub_setting_alert {
+  margin-left: -14px;
+  margin-bottom: 10px;
+}
+
+#acf_after_title-sortables input, .meta-box-sortables input, #acf_after_title-sortables textarea, .meta-box-sortables textarea {
+  border: none;
+  padding: 0;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0;
+  border-bottom: 1px solid #4e73df;
+}
+#acf_after_title-sortables input:focus, .meta-box-sortables input:focus, #acf_after_title-sortables textarea:focus, .meta-box-sortables textarea:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  box-shadow: none;
+  border-bottom-color: #4e73df;
+  color: #000;
+}
+#acf_after_title-sortables input::-moz-placeholder, .meta-box-sortables input::-moz-placeholder, #acf_after_title-sortables textarea::-moz-placeholder, .meta-box-sortables textarea::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}
+#acf_after_title-sortables input:-ms-input-placeholder, .meta-box-sortables input:-ms-input-placeholder, #acf_after_title-sortables textarea:-ms-input-placeholder, .meta-box-sortables textarea:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}
+#acf_after_title-sortables input::placeholder, .meta-box-sortables input::placeholder, #acf_after_title-sortables textarea::placeholder, .meta-box-sortables textarea::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}
+#acf_after_title-sortables .acf-button, #acf_after_title-sortables .acf-switch, .meta-box-sortables .acf-button, .meta-box-sortables .acf-switch, #acf_after_title-sortables .add-post, .meta-box-sortables .add-post {
+  background: #4e73df;
+  border-color: #4e73df;
+  color: #fff;
+  padding: 0 8px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-bottom: 20px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+select {
+  border-radius: 0;
+  color: #fff;
+}
+select .select2-selection {
+  border-radius: 0 !important;
+}
+select .acf-field .acf-label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.postbox-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f8f9fc;
+  border-bottom: 1px solid #e3e6f0;
+  border-top: 0.25rem solid #4e73df;
+}
+
+.postbox {
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+.postbox input[type=checkbox], .postbox #acf_after_title-sortables textarea[type=checkbox], #acf_after_title-sortables .postbox textarea[type=checkbox], .postbox .meta-box-sortables textarea[type=checkbox], .meta-box-sortables .postbox textarea[type=checkbox] {
+  border-radius: 0;
+}
+.postbox input[type=checkbox]:focus, .postbox #acf_after_title-sortables textarea[type=checkbox]:focus, #acf_after_title-sortables .postbox textarea[type=checkbox]:focus, .postbox .meta-box-sortables textarea[type=checkbox]:focus, .meta-box-sortables .postbox textarea[type=checkbox]:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 0 1px #4e73df;
+}
+
+#adminmenuback {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+
+#adminmenuwrap {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+#adminmenuwrap #adminmenu {
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+#adminmenuwrap #adminmenu li a {
+  color: rgba(255, 255, 255, 0.8);
+}
+#adminmenuwrap #adminmenu li ul {
+  background-color: #fff !important;
+}
+#adminmenuwrap #adminmenu li ul li a {
+  color: #0c0c0c;
+}
+
+#wpadminbar {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  background-color: #4e73df;
+  background-image: linear-gradient(90deg, #4e73df 10%, #224abe 100%);
+  background-size: cover;
+}
+
+.acfe-field-tooltip {
+  float: left !important;
+  font-size: 16px;
+  color: #999;
+  margin-right: 5px !important;
+}
+
+#poststuff #titlewrap #title-prompt-text {
+  padding: 3px !important;
+}
+#poststuff #titlewrap input, #poststuff #titlewrap #acf_after_title-sortables textarea, #acf_after_title-sortables #poststuff #titlewrap textarea, #poststuff #titlewrap .meta-box-sortables textarea, .meta-box-sortables #poststuff #titlewrap textarea {
+  border: none;
+  padding: 0;
+  height: 36px;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border-bottom: 2px solid #4e73df;
+}
+#poststuff #titlewrap input:focus, #poststuff #titlewrap #acf_after_title-sortables textarea:focus, #acf_after_title-sortables #poststuff #titlewrap textarea:focus, #poststuff #titlewrap .meta-box-sortables textarea:focus, .meta-box-sortables #poststuff #titlewrap textarea:focus {
+  box-shadow: none;
+}
+
+.acf-field .select2-selection {
+  border-radius: 0;
+}
+
+.acf-field .select2-container.-acf .select2-selection--single {
+  border-radius: 0 !important;
+  border: 1px solid #4e73df;
+}
+.acf-field .select2-container.-acf .select2-selection--single:focus {
+  box-shadow: none !important;
+}
+
+.acf-field .select2-container.-acf.select2-container--open .select2-selection--single {
+  box-shadow: none !important;
+}
+.acf-field .select2-container.-acf.select2-container--open .select2-selection--single .select2-results__options {
+  border-color: #4e73df;
+}
+
+.wp-core-ui .button {
+  background: #4e73df;
+  border-color: #4e73df;
+  color: #fff;
+  padding: 0 8px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-bottom: 20px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wp-list-table {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+#wpbody select {
+  border-radius: 0;
+}
+
+#edittag .term-description-wrap {
+  display: none;
+}
