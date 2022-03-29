@@ -29,7 +29,7 @@ use \Inc\Api\Callbacks\ManagerCallbacks;
 
 
 
-class Dashboard extends BaseController
+class FeedDashboard extends BaseController
 {
     public $settings;
 
@@ -219,14 +219,6 @@ class Dashboard extends BaseController
                 'option_group'  => 'builders_hub_settings_feed',
                 'option_name'   => 'builder_logo',
                 'callback'      => array($this->callbacks, 'buildersHubGroupFeedLogo')
-            ),
-
-
-
-            array(
-                'option_group'  => 'builders_hub_feed_dashboard_settings',
-                'option_name'   => 'builders_hub_name',
-                'callback'      => array($this->callbacks, 'buildersHubGroupFeedDashboard')
             ),
 
         );

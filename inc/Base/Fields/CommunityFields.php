@@ -255,12 +255,14 @@ class CommunityFields extends BaseController
                             'id' => '',
                         ),
                         'choices' => array(
+                            'Select' => 'Select',
                             'Active' => 'Active',
                             'Sold' => 'Sold',
-                            'Coming	Soon' => 'Coming	Soon',
-                            'Closeout' => 'Closeout',
-                            'Grand Opening' => 'Grand Opening',
+                            'ComingSoon' => 'Coming Soon',
+                            'Closeout' => 'CloseOut',
+                            'GrandOpening' => 'Grand Opening',
                             'Excluded' => 'Excluded',
+
                         ),
                         'default_value' => false,
                         'allow_null' => 0,

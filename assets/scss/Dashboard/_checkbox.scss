@@ -1,0 +1,48 @@
+//
+//
+//div.ui-toggle {
+//  margin: 0;
+//  padding: 0;
+//}
+//div.ui-toggle input[type="checkbox"] {
+//  display: none;
+//}
+//div.ui-toggle input[type="checkbox"]:checked + label {
+//  border-color: #4e73df;
+//  background: #4e73df;
+//  -webkit-box-shadow: inset 0 0 0 10px #4e73df;
+//  box-shadow: inset 0 0 0 10px #4e73df;
+//}
+//div.ui-toggle input[type="checkbox"]:checked + label > div {
+//  margin-left: 20px;
+//}
+//div.ui-toggle label {
+//  -webkit-transition: all 200ms ease;
+//  transition: all 200ms ease;
+//  display: inline-block;
+//  position: relative;
+//  -webkit-touch-callout: none;
+//  -webkit-user-select: none;
+//  -moz-user-select: none;
+//  -ms-user-select: none;
+//  user-select: none;
+//  background: #8c8c8c;
+//  -webkit-box-shadow: inset 0 0 0 0 #4e73df;
+//  box-shadow: inset 0 0 0 0 #4e73df;
+//  border: 2px solid #8c8c8c;
+//  border-radius: 22px;
+//  width: 40px;
+//  height: 20px;
+//}
+//div.ui-toggle label div {
+//  -webkit-transition: all 200ms ease;
+//  transition: all 200ms ease;
+//  background: #ffffff;
+//  width: 20px;
+//  height: 20px;
+//  border-radius: 10px;
+//}
+//div.ui-toggle label:hover,
+//div.ui-toggle label > div:hover {
+//  cursor: pointer;
+//}

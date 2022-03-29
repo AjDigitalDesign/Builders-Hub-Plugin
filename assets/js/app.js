@@ -1,3 +1,4 @@
+window.Popper = require('@popperjs/core')
 import 'bootstrap'
 import {createApp} from "vue";
 
@@ -8,5 +9,5 @@ AdminTabs.init();
 
 
 
-const homePage = createApp(dashboard);
-homePage.mount('#xml-feed');
+// const homePage = createApp(dashboard);
+// homePage.mount('#xml-feed');

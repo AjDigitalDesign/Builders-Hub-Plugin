@@ -1,6 +1,10 @@
 .builder_hub_wrapper{
   position: relative;
-  .nav-tabs {
+
+  .notice {
+    margin: 5px 1px 7px;
+  }
+  .db_nav-tabs {
     position: relative;
     display: flex;
     flex-flow: row;
@@ -29,7 +33,7 @@
         }
       }
     }
-    li.active{
+    li.db_active{
       a{
         color: #555;
         cursor: default;
@@ -55,15 +59,15 @@
       }
     }
   }
-  .tab-content {
+  .db_tab-content {
     position: relative;
     overflow: hidden;
     margin-right: 14px;
-    .tab-pane {
+    .db_tab-pane {
       width: 100%;
       display: none;
     }
-    .active {
+    .db_active {
       display: block;
       padding: 10px;
       background-color: #fff;

@@ -39,14 +39,14 @@ class AdminCallbacks extends BaseController
     }
 
 
-    public function buildersHubTextExample(){
-        $value = esc_attr(get_option('text_example'));
-        echo '<input type="text" class="form-control" name="text_example"  value="'. $value .'"  placeholder="Example Text"/>';
-    }
-
-    public function buildersHubFirstName(){
-        $value = esc_attr(get_option('first_name'));
-        echo '<input type="text" class="form-control" name="first_name"  value="'. $value .'"  placeholder="First Name"/>';
-    }
+//    public function buildersHubTextExample(){
+//        $value = esc_attr(get_option('text_example'));
+//        echo '<input type="text" class="form-control" name="text_example"  value="'. $value .'"  placeholder="Example Text"/>';
+//    }
+//
+//    public function buildersHubFirstName(){
+//        $value = esc_attr(get_option('first_name'));
+//        echo '<input type="text" class="form-control" name="first_name"  value="'. $value .'"  placeholder="First Name"/>';
+//    }
 
 }

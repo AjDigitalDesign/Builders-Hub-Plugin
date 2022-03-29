@@ -20356,13 +20356,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _app_dashboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/dashboard */ "./assets/js/app/dashboard.vue");
 /* harmony import */ var _js_components_admin_tabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js-components/admin-tabs */ "./assets/js/js-components/admin-tabs.js");
+window.Popper = __webpack_require__(/*! @popperjs/core */ "./node_modules/@popperjs/core/lib/index.js");
 
 
 
 
-_js_components_admin_tabs__WEBPACK_IMPORTED_MODULE_3__["default"].init();
-var homePage = (0,vue__WEBPACK_IMPORTED_MODULE_1__.createApp)(_app_dashboard__WEBPACK_IMPORTED_MODULE_2__["default"]);
-homePage.mount('#xml-feed');
+_js_components_admin_tabs__WEBPACK_IMPORTED_MODULE_3__["default"].init(); // const homePage = createApp(dashboard);
+// homePage.mount('#xml-feed');
 
 /***/ }),
 
@@ -20379,7 +20379,7 @@ __webpack_require__.r(__webpack_exports__);
 var AdminTabs = {
   init: function init() {
     window.addEventListener('load', function () {
-      var tabs = document.querySelectorAll('ul.nav-tabs > li');
+      var tabs = document.querySelectorAll('ul.db_nav-tabs > li');
 
       for (var i = 0; i < tabs.length; i++) {
         tabs[i].addEventListener('click', switchTab);
@@ -20387,15 +20387,15 @@ var AdminTabs = {
 
       function switchTab(e) {
         e.preventDefault();
-        var activeClass = document.querySelector('ul.nav-tabs li.active');
-        activeClass.classList.remove('active');
-        var activeClassPane = document.querySelector('.tab-pane.active');
-        activeClassPane.classList.remove('active');
+        var activeClass = document.querySelector('ul.db_nav-tabs li.db_active');
+        activeClass.classList.remove('db_active');
+        var activeClassPane = document.querySelector('.db_tab-pane.db_active');
+        activeClassPane.classList.remove('db_active');
         var clickCurrentTab = e.currentTarget;
         var anchorRef = e.target;
         var activePaneID = anchorRef.getAttribute('href');
-        clickCurrentTab.classList.add('active');
-        document.querySelector(activePaneID).classList.add('active');
+        clickCurrentTab.classList.add('db_active');
+        document.querySelector(activePaneID).classList.add('db_active');
       }
     });
   }
