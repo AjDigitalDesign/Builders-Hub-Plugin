@@ -912,6 +912,11 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
+"@emailjs/browser@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.5.0.tgz#2492baa62df0edef1012cbb26f90a7d23b9d54b0"
+  integrity sha512-VDpyaF2Xkt21/gRaV5TgZ8+CSsMy3+UTJo7K3/NL63gfBQIzrVQiK1U7Jw4PqpFDps9a1Gj7q8gfJ7thxUIRcw==
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.0.5.tgz#68eb521368db76d040a6315cdb24bf2483037b9c"
@@ -2532,6 +2537,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emailjs-com@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
